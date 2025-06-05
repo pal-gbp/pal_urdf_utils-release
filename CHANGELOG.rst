@@ -2,6 +2,28 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.0 (2025-06-04)
+------------------
+* Fix path for ft_sensor
+* Fix camera gazebo
+* Add cameras for talos
+* Add talos ati and imu
+* Add meshes folder in CMake
+* Change path fro ft_sesnors
+* Change path for both courier bases files
+* Restructure meshes following urdf structure
+* Reestructure urdf sensor
+* Add pmb3 sensors
+* Add sensor files for ari and specific bases
+* Add imu urdf
+* Update year
+* Add imu sensor
+* Add ft sensor files from pal_sea_arm_description
+* Update path for tiago v1 ft sensor
+* Change path for ftsensor ros2_control xacro
+* Move sensors to pal_urdf_utils package
+* Contributors: Aina
+
 2.0.1 (2023-12-19)
 ------------------
 * Add website tag
