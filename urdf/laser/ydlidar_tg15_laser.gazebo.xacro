@@ -13,7 +13,7 @@
 
   <xacro:macro name="ydlidar_tg15_laser_gazebo" params="name ros_topic update_rate min_angle max_angle">
     <gazebo reference="${name}_link">
-      <sensor type="ray" name="${name}">
+      <sensor type="gpu_ray" name="${name}">
         <pose>0 0 0 0 0 0</pose>
         <update_rate>${update_rate}</update_rate>
         <visualize>true</visualize>
@@ -35,13 +35,14 @@
           <noise>
             <type>gaussian</type>
             <mean>0.0</mean>
-            <stddev>0.06</stddev>
+            <stddev>0.01</stddev>
           </noise>
         </ray>
 
-        <plugin name="bytes_laserscan" filename="libgazebo_ros_ray_sensor.so">
+        <plugin name="${name}" filename="libgazebo_ros_ray_sensor.so">
             <ros>
-                <remapping>~/out:=${ros_topic}</remapping>
+              <namespace>${namespace}</namespace>
+              <remapping>~/out:=${ros_topic}</remapping>
             </ros>
             <output_type>sensor_msgs/LaserScan</output_type>
             <frame_name>${name}_link</frame_name>
