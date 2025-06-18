@@ -18,7 +18,7 @@
 
   <xacro:macro name="sick_nanoscan3_laser_gazebo" params="name ros_topic update_rate min_angle max_angle">
     <gazebo reference="${name}_link">
-      <sensor type="ray" name="${name}">
+      <sensor type="gpu_ray" name="${name}">
         <pose>0 0 0 0 0 0</pose>
         <update_rate>${update_rate}</update_rate>
         <visualize>true</visualize>
