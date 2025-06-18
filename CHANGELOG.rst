@@ -2,6 +2,21 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.1 (2025-06-18)
+------------------
+* Switch to gpu_ray due to an issue with the omni_base detecting its own collision boxes
+* Contributors: thomaspeyrucain
+
+2.2.0 (2025-06-17)
+------------------
+* support namespaces
+* Contributors: antoniobrandi
+
+2.1.1 (2025-06-12)
+------------------
+* fix ydlidar params
+* Contributors: andreacapodacqua
+
 2.1.0 (2025-06-04)
 ------------------
 * Fix path for ft_sensor
