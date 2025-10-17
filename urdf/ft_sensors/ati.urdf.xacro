@@ -38,7 +38,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="$(find pal_urdf_utils)/meshes/ft_sensors/ati_ft_sensor.stl"/>
+          <mesh filename="package://pal_urdf_utils//meshes/ft_sensors/ati_ft_sensor.stl"/>
         </geometry>
         <material name="pal/DarkGrey"/>
       </visual>

@@ -2,6 +2,40 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.2 (2025-08-28)
+------------------
+* Typo in t265 urdf
+* Contributors: antoniobrandi
+
+2.3.1 (2025-08-27)
+------------------
+* Update realsense_t265.urdf.xacro
+* Contributors: antoniobrandi
+
+2.3.0 (2025-08-27)
+------------------
+* update mesh
+* add realsense t265
+* add realsense cameras gazebo
+* uniform realsense cameras
+* Contributors: antoniobrandi
+
+2.2.4 (2025-07-23)
+------------------
+* Add pi utils urdf
+* Contributors: Aina Irisarri
+
+2.2.3 (2025-07-07)
+------------------
+* fix collision tg30
+* fix error not visualize laser model in rviz
+* Contributors: andreacapodacqua
+
+2.2.2 (2025-06-25)
+------------------
+* Fix meshes paths
+* Contributors: Aina
+
 2.2.1 (2025-06-18)
 ------------------
 * Switch to gpu_ray due to an issue with the omni_base detecting its own collision boxes
