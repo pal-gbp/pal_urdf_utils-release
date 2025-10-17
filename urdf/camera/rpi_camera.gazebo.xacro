@@ -13,6 +13,9 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
   <xacro:macro name="rpi_camera_gazebo" params="name:=camera topic:=camera frame:=camera_optic_frame">
+    <xacro:include filename="$(find pal_urdf_utils)/urdf/pi.urdf.xacro" />
+
+
     <gazebo reference="${name}_link">
       <sensor type="camera" name="${name}_pi_camera">
         <update_rate>30.0</update_rate>
