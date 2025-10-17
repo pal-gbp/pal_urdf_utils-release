@@ -38,7 +38,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 90 0"/>
         <geometry>
-          <mesh filename="$(find pal_urdf_utils)/meshes/camera/elp_camera.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="package://pal_urdf_utils/meshes/camera/elp_camera.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="Grey" />
       </visual>
