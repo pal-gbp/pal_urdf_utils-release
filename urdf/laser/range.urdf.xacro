@@ -30,7 +30,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="$(find pal_urdf_utils)/meshes/laser/srf05.stl"/>
+          <mesh filename="package://pal_urdf_utils/meshes/laser/srf05.stl"/>
         </geometry>
         <material name="DarkGrey"/>
       </visual>

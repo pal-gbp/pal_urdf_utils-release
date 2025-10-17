@@ -25,10 +25,16 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="$(find pal_urdf_utils)/meshes/laser/ydlidar.dae"/>
+          <mesh filename="package://pal_urdf_utils/meshes/laser/ydlidar.dae"/>
         </geometry>
         <material name="DarkGrey"/>
       </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://pal_urdf_utils/meshes/laser/ydlidar.dae"/>
+        </geometry>
+      </collision>
     </link>
 
     <joint name="${name}_joint" type="fixed">
